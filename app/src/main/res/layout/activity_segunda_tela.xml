@@ -8,6 +8,7 @@
     tools:context=".SegundaTela">
 
     <TextView
+        android:id="@+id/resultado"
         android:text="Teste"
         android:gravity="center"
         android:layout_width="match_parent"
