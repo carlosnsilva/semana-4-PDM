@@ -23,6 +23,7 @@
         android:layout_height="match_parent">
 
         <EditText
+            android:id="@+id/campoNome"
             android:hint="Informe seu nome"
             android:inputType="text"
             android:layout_width="wrap_content"
@@ -38,6 +39,7 @@
         android:layout_height="match_parent">
 
         <EditText
+            android:id="@+id/campoAno"
             android:hint="Informe o ano que nasceu"
             android:inputType="number"
             android:layout_width="wrap_content"
@@ -52,12 +54,10 @@
         android:layout_height="match_parent">
 
         <Button
-
             android:id="@+id/btnCalcular"
             android:text="CALCULAR"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-
         </Button>
 
     </LinearLayout>
